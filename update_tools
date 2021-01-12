@@ -39,10 +39,10 @@ if [ "$#" -eq 0 ] ; then
           --output-file="${DIR}/examples/tests/requirements.txt" \
           "${DIR}/examples/tests/requirements.in"
 
-    #azel test //... --test_output=errors
+    # bazelisk test //... --test_output=errors
 
-    #pushd examples
-    #bazel test //... --test_output=errors
+    # pushd examples
+    # bazelisk test //... --test_output=errors
 else
   usage
 fi
